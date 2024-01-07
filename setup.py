@@ -1,7 +1,7 @@
 from setuptools import find_packages, setup
 
 setup(
-    name='src',
+    name='sentinel_classification',
     packages=find_packages(),
     version='0.1.0',
     description='processing S1 and S2 data and simple land use classification',
