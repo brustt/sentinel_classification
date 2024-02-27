@@ -7,9 +7,6 @@ from src.config import ConfigS1 as cfg
 def load_sentinel_product(path_folder: str):
     with rioxr.open_rasterio(path_folder) as src:
         return src
-    
-def close_dataset(src):
-    src.close()
 
 
 def load_shapefile(path_file: str, to_epsg: int=None):
